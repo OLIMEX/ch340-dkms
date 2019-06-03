@@ -1,0 +1,13 @@
+language: c
+
+branches:
+  only:
+    master
+
+before_install:
+  - sudo apt-get update
+  - sudo apt-get install -y dkms
+
+script:
+  - sudo dkms build .
+  - sudo dkms install ch340/1.0.0
