@@ -3,6 +3,7 @@
  * Copyright 2007, Frank A Kingswood <frank@kingswood-consulting.co.uk>
  * Copyright 2007, Werner Cornelius <werner@cornelius-consult.de>
  * Copyright 2009, Boris Hajduk <boris@hajduk.org>
+ * Copyright 2019, Olimex Ltd <support@olimex.com>
  *
  * ch340.c implements a serial port driver for the Winchiphead CH340.
  *
