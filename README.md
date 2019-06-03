@@ -1,4 +1,5 @@
 ## CH340-DKMS
+[![Build Status](https://travis-ci.org/StefanMavrodiev/ch340-dkms.svg?branch=master)](https://travis-ci.org/StefanMavrodiev/ch340-dkms)
 
 ### Installation
 
