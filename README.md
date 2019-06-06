@@ -16,7 +16,7 @@ sudo dkms install ch340/1.0.0
 
 Blacklist the "wrong" driver. Open ***blacklist.conf*** (may not exist).
 ```sh
-sudo nano /etc/modules-load.d/blacklist.conf
+sudo nano /etc/modprobe.d/dkms.conf
 ```
 Add the following line:
 ```
