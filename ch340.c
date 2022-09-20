@@ -321,14 +321,13 @@ error:	kfree(priv);
 	return r;
 }
 
-static int ch340_port_remove(struct usb_serial_port *port)
+static void ch340_port_remove(struct usb_serial_port *port)
 {
 	struct ch340_private *priv;
 
 	priv = usb_get_serial_port_data(port);
 	kfree(priv);
 
-	return 0;
 }
 
 static int ch340_carrier_raised(struct usb_serial_port *port)
